@@ -1,0 +1,15 @@
+{
+  "name": "knex-pg-builder",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:xiechao06/knex-builder.git",
+  "author": "xiechao06@gmail.com",
+  "license": "MIT",
+  "description": "A small utility to automate the postgres's table creation for knex",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "standard": "^12.0.1"
+  }
+}
