@@ -11,7 +11,7 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Coverage Status](https://coveralls.io/repos/github/xiechao06/knex-pg-builder/badge.svg)](https://coveralls.io/github/xiechao06/knex-pg-builder)
 [![Travis CI](https://img.shields.io/travis/xiechao06/knex-pg-builder.svg?style=flat-square)](https://travis-ci.org/xiechao06/knex-pg-builder)
-
+[![Known Vulnerabilities](https://snyk.io/test/npm/knex-pg-builder/badge.svg)](https://snyk.io/test/npm/knex-pg-builder)
 
 A small utility to automate the table creation for [knex](https://knexjs.org).
 
