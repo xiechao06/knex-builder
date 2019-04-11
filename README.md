@@ -66,3 +66,4 @@ m.set('b', 2)
 
 Array.from(m) // generate [['a', 1], ['b', 1]]
 ```
+
