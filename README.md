@@ -38,7 +38,7 @@ db.transaction(async function (trx) {
       id: t => t.increments(id),
       created_at: (t, trx) => t.datetime('create_at').defaultTo(trx.fn.now(6))
     }]
-  ]))
+  ]), 'awesome_schema')
 })
 ```
 
