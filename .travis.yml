@@ -25,7 +25,7 @@ script:
 
 after_success:
   # report coverage
-  - cat ./coverage/lcov.info | coveralls
+  - docker-compose run test cat ./coverage/lcov.info | coveralls
 
 notifications:
   email:
