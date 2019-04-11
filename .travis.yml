@@ -21,6 +21,7 @@ jobs:
 
 script:
   # ban sensitive files
+  - npm run test
   - npx ban -- --all
 
 after_success:
