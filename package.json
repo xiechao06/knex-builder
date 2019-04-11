@@ -41,7 +41,7 @@
     "build": "rimraf dist && tsc",
     "test": "docker-compose run test",
     "build:doc": "typedoc --out doc --mode file --theme minimal --module commonjs index.ts",
-    "prepublishOnly": "npm run build && pkg-ok",
+    "prepublishOnly": "npm run build && npx pkg-ok",
     "semantic-release": "semantic-release",
     "deploy:doc": "NODE_DEBUG=gh-pages ts-node scripts/deploy-gh-pages.ts",
     "serve:doc": "run-p _serve:doc _open-doc",
