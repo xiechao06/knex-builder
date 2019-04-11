@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        // see https://codeburst.io/javascript-wtf-is-es6-es8-es-2017-ecmascript-dca859e4821c
+        "target": "es2017",
+        "lib": ["es2017", "dom"],
+        "declaration": true,
+        "declarationDir": "dist/types",
+        "outDir": "dist",
+        "types": ["jest", "node", "knex"],
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+      "**/*.ts",
+      "__tests__/*.ts",
+      "scripts/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}

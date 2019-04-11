@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  test:
+    build: .
+    command: npx jest --coverage
+    environment:
+      PG_CONNECTION_STRING: postgresql://postgres@db/postgres
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+  db:
+    image: postgres
