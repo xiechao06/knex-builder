@@ -35,14 +35,14 @@ const { createSchemas, clearSchemas } = require('knex-pg-builder');
 db.transaction(async function (trx) {
   await createSchemas(trx, new Map([
     ['tableA', {
-      id: t => t.increments(id),
+      id: t => t.increments('id'),
       created_at: (t, trx) => t.datetime('create_at').defaultTo(trx.fn.now(6))
     }]
   ]), 'awesome_schema')
 })
 ```
 
-check `__tests__/test.ts`
+check `__tests__/test.ts` for a complete example.
 
 ## [Docs](https:///xiechao06.github.io/knex-pg-builder)
 
