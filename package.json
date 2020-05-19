@@ -11,7 +11,7 @@
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
     "@types/jest": "^24.0.11",
-    "@types/node": "^11.13.4",
+    "@types/node": "^14.0.3",
     "ban-sensitive-files": "^1.9.2",
     "commitizen": "^3.0.7",
     "coveralls": "^3.0.3",
